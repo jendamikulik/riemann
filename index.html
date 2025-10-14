@@ -1,0 +1,554 @@
+<head>
+  <meta charset="utf-8" />
+  <base href="./">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Edge Vector Theory — Archiv (Index)</title>
+  <style>
+    :root{--bg:#0b0c10;--panel:#11131a;--ink:#e8eaf0;--muted:#a7aec0;--gold:#f1b32a;--line:#1e2230}
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,#0b0c10,#0d1020);color:var(--ink);font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial}
+    header{position:sticky;top:0;z-index:10;backdrop-filter:saturate(1.2) blur(8px);background:rgba(11,12,16,.75);border-bottom:1px solid var(--line)}
+    .wrap{max-width:1100px;margin:0 auto;padding:18px 20px}
+    h1{margin:0;font-weight:700;letter-spacing:.2px;font-size:clamp(20px,3vw,28px)}
+    .subtitle{color:var(--muted);margin-top:6px}
+    .toolbar{margin-top:14px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+    input[type="search"]{flex:1 1 320px;padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:#0e1220;color:var(--ink);outline:none}
+    .tag{border:1px solid var(--line);border-radius:999px;padding:8px 12px;cursor:pointer;color:var(--muted)}
+    .tag.active{border-color:var(--gold);color:var(--gold)}
+    main{padding:28px 20px}
+    section{margin:26px 0 14px}
+    section>h2{margin:0 0 14px;font-size:clamp(18px,2.4vw,22px);font-weight:700}
+    .grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+    .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+    .thumb{aspect-ratio:16/10;width:100%;background:#0d1222;display:grid;place-items:center;border-bottom:1px solid var(--line)}
+    .thumb img{max-width:100%;max-height:100%;object-fit:contain;display:block}
+    .body{padding:14px}
+    .title{font-weight:650;margin:0 0 6px;font-size:15px}
+    .meta{color:var(--muted);font-size:13px;margin-bottom:10px}
+    .btnrow{display:flex;gap:8px;margin-top:auto;padding:0 14px 14px}
+    .btn{text-decoration:none;padding:9px 12px;border-radius:10px;border:1px solid var(--line);color:var(--ink);background:#0f1426;transition:transform .06s ease,border-color .2s}
+    .btn:hover{transform:translateY(-1px);border-color:#2a3350}
+    .btn.gold{background:linear-gradient(180deg,#2a1d00,#221500);border-color:#3b2a00;color:#ffd36e}
+    .badge{display:inline-block;padding:4px 8px;border:1px solid var(--line);border-radius:999px;margin-left:8px;color:#9fb3ff}
+    .note{border-left:3px solid #e94f64;padding:10px 12px;background:#121628;color:#c9cfe4;border-radius:8px;margin:10px 0}
+    a{color:#9fc6ff}
+    footer{border-top:1px solid var(--line);color:var(--muted);padding:28px 20px;text-align:center}
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <h1>Edge Vector Theory — Archiv</h1>
+    <div class="subtitle">
+      Kurátor: <strong>ARCHITECT</strong>
+      <span class="badge">EVT</span> <span class="badge">MMC⇔RH</span> <span class="badge">Navier–Stokes</span>
+    </div>
+    <div class="toolbar">
+      <input id="q" type="search" placeholder="Hledat soubor nebo téma…" />
+      <div class="tag" data-tag="core">Core</div>
+      <div class="tag" data-tag="program-a">Program A</div>
+      <div class="tag" data-tag="program-b">Program B</div>
+      <div class="tag" data-tag="program-c">Program C</div>
+      <div class="tag" data-tag="void">VOID</div>
+      <div class="tag" data-tag="mirror">Mirror</div>
+      <div class="tag" data-tag="navier-stokes">Navier–Stokes</div>
+      <div class="tag" data-tag="riemann">Riemann</div>
+      <div class="tag" data-tag="axioms">Axiomy</div>
+      <div class="tag" data-tag="all">Vše</div>
+    </div>
+    
+  </div>
+</header>
+
+<main class="wrap" id="content">
+
+  <section id="core">
+    <h2>Hlavní dokumenty</h2>
+    <div class="grid">
+
+      <article class="card" data-tags="core axioms riemann navier-stokes" data-file="EDGE_VECTOR_THEORY.pdf">
+        <div class="thumb"><span>PDF</span></div>
+        <div class="body">
+          <h3 class="title">EDGE_VECTOR_THEORY.pdf</h3>
+          <div class="meta">Axiomy, operátory D/D⁻¹, kolaps, ontologie.</div>
+        </div>
+        <div class="btnrow">
+          <a class="btn gold open" target="_blank" rel="noopener">Otevřít</a>
+          <a class="btn download" download>Stáhnout</a>
+        </div>
+      </article>
+
+
+      <article class="card" data-tags="core axioms riemann navier-stokes" data-file="DUKAZY PROGRAM ABC.pdf">
+        <div class="thumb"><span>PDF</span></div>
+        <div class="body">
+          <h3 class="title">DUKAZY PROGRAM ABC.pdf</h3>
+          <div class="meta">Důkazní program A, B, C.</div>
+        </div>
+        <div class="btnrow">
+          <a class="btn gold open" target="_blank" rel="noopener">Otevřít</a>
+          <a class="btn download" download>Stáhnout</a>
+        </div>
+      </article>
+
+
+
+    </div>
+  </section>
+
+  <section id="diagrams">
+    <h2>Diagramy, programy a appendixy</h2>
+    <div class="grid">
+
+      <!-- Všechny obrázky (každý s data-file i pro src) -->
+      <article class="card" data-tags="void mirror axioms" data-file="Fázová Uzávěra, Stabilita a VOID Projektor.png">
+        <div class="thumb"><img alt="Fázová uzávěra a VOID"></div>
+        <div class="body">
+          <h3 class="title">Fázová Uzávěra, Stabilita a VOID Projektor</h3>
+          <div class="meta">Lyapunovská stabilita; closure přes VOID.</div>
+        </div>
+        <div class="btnrow">
+          <a class="btn open" target="_blank" rel="noopener">Zobrazit</a>
+          <a class="btn download" download>Stáhnout</a>
+        </div>
+      </article>
+
+      <article class="card" data-tags="mirror axioms" data-file="Topologická Kontinuita Přes Zrcadlo.png">
+        <div class="thumb"><img alt="Topologická kontinuita"></div>
+        <div class="body">
+          <h3 class="title">Topologická Kontinuita Přes Zrcadlo</h3>
+          <div class="meta">Spojitost projektivní třídy [E] při Φ(E)=0.</div>
+        </div>
+        <div class="btnrow">
+          <a class="btn open" target="_blank" rel="noopener">Zobrazit</a>
+          <a class="btn download" download>Stáhnout</a>
+        </div>
+      </article>
+
+      <article class="card" data-tags="riemann program-a" data-file="MMC ⟺ RH Důkaz Ekvivalence (Program A) & Asymptotika (Program B).png">
+        <div class="thumb"><img alt="MMC ⇔ RH"></div>
+        <div class="body">
+          <h3 class="title">MMC ⟺ RH (Program A) + Asymptotika (Program B)</h3>
+          <div class="meta">Ekvivalence a přehled asymptotik.</div>
+        </div>
+        <div class="btnrow">
+          <a class="btn open" target="_blank" rel="noopener">Zobrazit</a>
+          <a class="btn download" download>Stáhnout</a>
+        </div>
+      </article>
+
+      <article class="card" data-tags="riemann program-b" data-file="Program B Lemmata pro Asymptotiku, A(t),E(σ,t) a Shrinkující ϵ(t) (Detailní analytické odhady chybové složky).png">
+        <div class="thumb"><img alt="Program B"></div>
+        <div class="body">
+          <h3 class="title">Program B — Lemmata a pás ε(t)</h3>
+          <div class="meta">Rozklad S(σ,t) a jednotná omezení.</div>
+        </div>
+        <div class="btnrow">
+          <a class="btn open" target="_blank" rel="noopener">Zobrazit</a>
+          <a class="btn download" download>Stáhnout</a>
+        </div>
+      </article>
+
+      <article class="card" data-tags="program-c navier-stokes operators" data-file="Program C Bounded v-Flux a Globální H 1  Kontrola u ∥  (Podmínka pozitivní disipace a částečná regularita).png">
+        <div class="thumb"><img alt="Program C"></div>
+        <div class="body">
+          <h3 class="title">Program C — Bounded v-Flux & globální H¹</h3>
+          <div class="meta">Energetické nerovnosti; částečná regularita.</div>
+        </div>
+        <div class="btnrow">
+          <a class="btn open" target="_blank" rel="noopener">Zobrazit</a>
+          <a class="btn download" download>Stáhnout</a>
+        </div>
+      </article>
+
+      <article class="card" data-tags="operators navier-stokes" data-file="Funkcionální Model Kolapsu C (Program C) (Model operátorů na Sobolevových škálách a kontrola v-fluxu).png">
+        <div class="thumb"><img alt="Kolaps C = I−Πv"></div>
+        <div class="body">
+          <h3 class="title">Funkcionální model kolapsu C = I−Π<sub>v</sub></h3>
+          <div class="meta">Sobolevské škály, vláknová projekce.</div>
+        </div>
+        <div class="btnrow">
+          <a class="btn open" target="_blank" rel="noopener">Zobrazit</a>
+          <a class="btn download" download>Stáhnout</a>
+        </div>
+      </article>
+
+      <article class="card" data-tags="operators" data-file="Funkcionální Model D a Kolaps C.png">
+        <div class="thumb"><img alt="Funkcionální model D⁻¹D"></div>
+        <div class="body">
+          <h3 class="title">Funkcionální model D⁻¹D a kolaps C</h3>
+          <div class="meta">Idempotence, projekční charakter.</div>
+        </div>
+        <div class="btnrow">
+          <a class="btn open" target="_blank" rel="noopener">Zobrazit</a>
+          <a class="btn download" download>Stáhnout</a>
+        </div>
+      </article>
+
+      <article class="card" data-tags="mirror riemann" data-file="Flux-Closure Invariant  Přežití [E].png">
+        <div class="thumb"><img alt="Flux-closure invariant"></div>
+        <div class="body">
+          <h3 class="title">Flux-Closure Invariant — Přežití [E]</h3>
+          <div class="meta">Φ(E)=0 ⇒ [E] přetrvá.</div>
+        </div>
+        <div class="btnrow">
+          <a class="btn open" target="_blank" rel="noopener">Zobrazit</a>
+          <a class="btn download" download>Stáhnout</a>
+        </div>
+      </article>
+
+      <article class="card" data-tags="mirror philosophy" data-file="Singularita jako Perfektní Symetrie & Kontinuita Přes Zrcadlo.png">
+        <div class="thumb"><img alt="Singularita a kontinuita"></div>
+        <div class="body">
+          <h3 class="title">Singularita jako perfektní symetrie</h3>
+          <div class="meta">Ztráta orientace; projektivní kontinuita.</div>
+        </div>
+        <div class="btnrow">
+          <a class="btn open" target="_blank" rel="noopener">Zobrazit</a>
+          <a class="btn download" download>Stáhnout</a>
+        </div>
+      </article>
+
+      <article class="card" data-tags="mirror riemann" data-file="Flux Mirror Rovnováha Kritické Přímky.png">
+        <div class="thumb"><img alt="Flux mirror"></div>
+        <div class="body">
+          <h3 class="title">Flux Mirror — Rovnováha na kritické přímce</h3>
+          <div class="meta">S(½,t)=0 → tok zleva = tok zprava.</div>
+        </div>
+        <div class="btnrow">
+          <a class="btn open" target="_blank" rel="noopener">Zobrazit</a>
+          <a class="btn download" download>Stáhnout</a>
+        </div>
+      </article>
+
+      <article class="card" data-tags="mirror physics" data-file="Geometrická Uzávěra Fáze (Sagnac).png">
+        <div class="thumb"><img alt="Sagnac"></div>
+        <div class="body">
+          <h3 class="title">Geometrická uzávěra fáze (Sagnac)</h3>
+          <div class="meta">Doppler mizí lokálně, fáze zůstává globálně.</div>
+        </div>
+        <div class="btnrow">
+          <a class="btn open" target="_blank" rel="noopener">Zobrazit</a>
+          <a class="btn download" download>Stáhnout</a>
+        </div>
+      </article>
+
+      <article class="card" data-tags="philosophy mirror" data-file="Bod Absolutna Fázová Rezonance.png">
+        <div class="thumb"><img alt="Bod absolutna"></div>
+        <div class="body">
+          <h3 class="title">Bod absolutna — fázová rezonance</h3>
+          <div class="meta">Uzlový bod reality: mizí pohyb, zůstává směr.</div>
+        </div>
+        <div class="btnrow">
+          <a class="btn open" target="_blank" rel="noopener">Zobrazit</a>
+          <a class="btn download" download>Stáhnout</a>
+        </div>
+      </article>
+
+      <article class="card" data-tags="axioms" data-file="Základy EVT Axiomy, Operátory (Úvod do Edge Vector Theory a principu jednotného zrcadla).png">
+        <div class="thumb"><img alt="Základy EVT"></div>
+        <div class="body">
+          <h3 class="title">Základy EVT — Axiomy, D/D⁻¹, UMP</h3>
+          <div class="meta">Unifikace principu zrcadla.</div>
+        </div>
+        <div class="btnrow">
+          <a class="btn open" target="_blank" rel="noopener">Zobrazit</a>
+          <a class="btn download" download>Stáhnout</a>
+        </div>
+      </article>
+
+      <article class="card" data-tags="riemann program-a program-b program-c" data-file="Architektura Důkazu (Programy A, B, C).png">
+        <div class="thumb"><img alt="Architektura důkazu"></div>
+        <div class="body">
+          <h3 class="title">Architektura důkazu — Programy A, B, C</h3>
+          <div class="meta">Mapování toků a závislostí.</div>
+        </div>
+        <div class="btnrow">
+          <a class="btn open" target="_blank" rel="noopener">Zobrazit</a>
+          <a class="btn download" download>Stáhnout</a>
+        </div>
+      </article>
+
+      <article class="card" data-tags="riemann program-a program-b program-c" data-file="Dokončení Důkazu RH (Program A, B, C) a Hadadardova Dekompozice (Přehled architektur a formální lemata pro MMC ⟺ RH).png">
+        <div class="thumb"><img alt="Dokončení RH"></div>
+        <div class="body">
+          <h3 class="title">Dokončení důkazu RH + Hadamardova dekompozice</h3>
+          <div class="meta">Konečné kroky a kontrola chyb.</div>
+        </div>
+        <div class="btnrow">
+          <a class="btn open" target="_blank" rel="noopener">Zobrazit</a>
+          <a class="btn download" download>Stáhnout</a>
+        </div>
+      </article>
+
+      <article class="card" data-tags="riemann" data-file="Kvantitativní Stabilita a Exkluzivní Pás (Program B & C detaily).png">
+        <div class="thumb"><img alt="Stabilita a pás"></div>
+        <div class="body">
+          <h3 class="title">Kvantitativní stabilita & exkluzivní pás</h3>
+          <div class="meta">Detaily Programu B & C.</div>
+        </div>
+        <div class="btnrow">
+          <a class="btn open" target="_blank" rel="noopener">Zobrazit</a>
+          <a class="btn download" download>Stáhnout</a>
+        </div>
+      </article>
+
+      <article class="card" data-tags="mirror" data-file="MMRN  Normalized Mirror Resonance System.png">
+        <div class="thumb"><img alt="MMRN / NMRS"></div>
+        <div class="body">
+          <h3 class="title">MMRN / Normalized Mirror Resonance System</h3>
+          <div class="meta">Normalizace amplitudy zrcadlového toku.</div>
+        </div>
+        <div class="btnrow">
+          <a class="btn open" target="_blank" rel="noopener">Zobrazit</a>
+          <a class="btn download" download>Stáhnout</a>
+        </div>
+      </article>
+
+
+      <article class="card" data-tags="mirror" data-file="Appendix A.png">
+        <div class="thumb"><img alt="Appendix A"></div>
+        <div class="body">
+          <h3 class="title">Appendix A</h3>
+          <div class="meta">Appendix A</div>
+        </div>
+        <div class="btnrow">
+          <a class="btn open" target="_blank" rel="noopener">Zobrazit</a>
+          <a class="btn download" download>Stáhnout</a>
+        </div>
+      </article>
+
+
+      <article class="card" data-tags="mirror" data-file="Testované Lemma Vyloučení Off-line Nul a Indexová Překážka (Detailní analytický důkaz pro MMC RH).png">
+        <div class="thumb"><img alt="Testované Lemma Vyloučení Off-line Nul a Indexová Překážka (Detailní analytický důkaz pro MMC RH)"></div>
+        <div class="body">
+          <h3 class="title">Testované Lemma Vyloučení Off-line Nul a Indexová Překážka (Detailní analytický důkaz pro MMC⟹RH)</h3>
+          <div class="meta">Testované Lemma Vyloučení Off-line Nul a Indexová Překážka (Detailní analytický důkaz pro MMC⟹RH)</div>
+        </div>
+        <div class="btnrow">
+          <a class="btn open" target="_blank" rel="noopener">Zobrazit</a>
+          <a class="btn download" download>Stáhnout</a>
+        </div>
+      </article>
+
+      <article class="card" data-tags="mirror" data-file="SEAL.png">
+        <div class="thumb"><img alt="SEAL"></div>
+        <div class="body">
+          <h3 class="title">Seal</h3>
+          <div class="meta">Seal</div>
+        </div>
+        <div class="btnrow">
+          <a class="btn open" target="_blank" rel="noopener">Zobrazit</a>
+          <a class="btn download" download>Stáhnout</a>
+        </div>
+      </article>
+
+
+      <article class="card" data-tags="mirror" data-file="FLUX_1.py">
+        <div class="thumb"><span>PY</span></div>
+        <div class="body">
+          <h3 class="title">FLUX_1</h3>
+          <div class="meta">FLUX_1</div>
+        </div>
+        <div class="btnrow">
+          <a class="btn open" target="_blank" rel="noopener">Zobrazit</a>
+          <a class="btn download" download>Stáhnout</a>
+        </div>
+      </article>
+
+      <article class="card" data-tags="mirror" data-file="FLUX_2.py">
+        <div class="thumb"><span>PY</span></div>
+        <div class="body">
+          <h3 class="title">FLUX_2</h3>
+          <div class="meta">FLUX_2</div>
+        </div>
+        <div class="btnrow">
+          <a class="btn open" target="_blank" rel="noopener">Zobrazit</a>
+          <a class="btn download" download>Stáhnout</a>
+        </div>
+      </article>
+
+      <article class="card" data-tags="mirror" data-file="FLUX_3.py">
+        <div class="thumb"><span>PY</span></div>
+        <div class="body">
+          <h3 class="title">FLUX_3</h3>
+          <div class="meta">FLUX_3</div>
+        </div>
+        <div class="btnrow">
+          <a class="btn open" target="_blank" rel="noopener">Zobrazit</a>
+          <a class="btn download" download>Stáhnout</a>
+        </div>
+      </article>
+
+      <article class="card" data-tags="mirror" data-file="FLUX_4.py">
+        <div class="thumb"><span>PY</span></div>
+        <div class="body">
+          <h3 class="title">FLUX_4</h3>
+          <div class="meta">FLUX_4</div>
+        </div>
+        <div class="btnrow">
+          <a class="btn open" target="_blank" rel="noopener">Zobrazit</a>
+          <a class="btn download" download>Stáhnout</a>
+        </div>
+      </article>
+
+      <article class="card" data-tags="mirror" data-file="FLUX_5.py">
+        <div class="thumb"><span>PY</span></div>
+        <div class="body">
+          <h3 class="title">FLUX_5</h3>
+          <div class="meta">FLUX_5</div>
+        </div>
+        <div class="btnrow">
+          <a class="btn open" target="_blank" rel="noopener">Zobrazit</a>
+          <a class="btn download" download>Stáhnout</a>
+        </div>
+      </article>
+
+      <article class="card" data-tags="mirror" data-file="FLUX_6.py">
+        <div class="thumb"><span>PY</span></div>
+        <div class="body">
+          <h3 class="title">FLUX_6</h3>
+          <div class="meta">FLUX_6</div>
+        </div>
+        <div class="btnrow">
+          <a class="btn open" target="_blank" rel="noopener">Zobrazit</a>
+          <a class="btn download" download>Stáhnout</a>
+        </div>
+      </article>
+
+      <article class="card" data-tags="mirror" data-file="FLUX_7.py">
+        <div class="thumb"><span>PY</span></div>
+        <div class="body">
+          <h3 class="title">FLUX_7</h3>
+          <div class="meta">FLUX_7</div>
+        </div>
+        <div class="btnrow">
+          <a class="btn open" target="_blank" rel="noopener">Zobrazit</a>
+          <a class="btn download" download>Stáhnout</a>
+        </div>
+      </article>
+
+      <article class="card" data-tags="mirror" data-file="FLUX_8.py">
+        <div class="thumb"><span>PY</span></div>
+        <div class="body">
+          <h3 class="title">FLUX_8</h3>
+          <div class="meta">FLUX_8</div>
+        </div>
+        <div class="btnrow">
+          <a class="btn open" target="_blank" rel="noopener">Zobrazit</a>
+          <a class="btn download" download>Stáhnout</a>
+        </div>
+      </article>
+
+      <article class="card" data-tags="mirror" data-file="MMC_SCAN.py">
+        <div class="thumb"><span>PY</span></div>
+        <div class="body">
+          <h3 class="title">MMC_SCAN</h3>
+          <div class="meta">MMC_SCAN</div>
+        </div>
+        <div class="btnrow">
+          <a class="btn open" target="_blank" rel="noopener">Zobrazit</a>
+          <a class="btn download" download>Stáhnout</a>
+        </div>
+      </article>
+
+
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div>© <script>document.write(new Date().getFullYear())</script> ARCHITECT — Edge Vector Theory</div>
+  <div style="margin-top:8px;color:#7f88a5">Index je interní a důvěrný.</div>
+</footer>
+
+<script>
+  // --- Robustní URL pro všechny hosty ---
+  function normalizeName(name){
+    return name.normalize('NFC')
+      .replace(/\u00A0/g,' ')                         // NBSP -> space
+      .replace(/[\u2013\u2014\u2212]/g,'-')           // en/em/− -> -
+      .replace(/[\u200B\u200C\u200D\u2060]/g,'');     // zero-width
+  }
+  function safeURL(name){
+    const n = normalizeName(name);
+    return n.split('/').map(seg => encodeURIComponent(seg)).join('/')
+      .replace(/#/g,'%23').replace(/\?/g,'%3F')
+      .replace(/&/g,'%26').replace(/\(/g,'%28').replace(/\)/g,'%29');
+  }
+
+  // Otevření v téže záložce (některé brány blokují _blank)
+  function openHere(url){ window.location.href = url; }
+
+  // Inicializace karet
+  (function init(){
+    document.querySelectorAll('.card').forEach(card=>{
+      const file = card.getAttribute('data-file');
+      if(!file) return;
+      const url  = safeURL(file);
+
+      // Tlačítka
+      const openBtn = card.querySelector('a.open');
+      const dlBtn   = card.querySelector('a.download');
+      if(openBtn){
+        openBtn.removeAttribute('target');
+        openBtn.href = url;
+        openBtn.addEventListener('click', e=>{
+          // některé hosty ignorují href + download; jdi jistě
+          e.preventDefault(); openHere(url);
+        });
+      }
+      if(dlBtn){
+        dlBtn.href = url;
+        dlBtn.setAttribute('download', file);
+      }
+
+      // Náhled (bez HEAD testu; fallback přes onerror)
+      const img = card.querySelector('.thumb img');
+      if(img){
+        const isImage = /\.(png|jpe?g|gif|webp|svg)$/i.test(file);
+        if(isImage){
+          img.src = url;
+          img.onerror = ()=>{
+            img.remove();
+            const th = card.querySelector('.thumb');
+            th.innerHTML = '<span style="color:#768; font-size:12px">[náhled nelze načíst]</span>';
+          };
+        } else {
+          img.remove();
+        }
+      }
+    });
+
+    // Fulltext + tag filtr
+    const q    = document.getElementById('q');
+    const tags = [...document.querySelectorAll('.tag')];
+    const cards= [...document.querySelectorAll('.card')];
+
+    function applyFilter(){
+      const text = (q.value||'').toLowerCase();
+      const active = tags.filter(t=>t.classList.contains('active') && t.dataset.tag!=='all')
+                         .map(t=>t.dataset.tag);
+      cards.forEach(c=>{
+        const hay = (c.textContent||'').toLowerCase();
+        const ct  = (c.dataset.tags||'').split(' ').filter(Boolean);
+        const matchText = !text || hay.includes(text);
+        const matchTags = !active.length || active.every(t=>ct.includes(t));
+        c.style.display = (matchText && matchTags) ? '' : 'none';
+      });
+    }
+    q && q.addEventListener('input', applyFilter);
+    tags.forEach(t=>{
+      t.addEventListener('click', ()=>{
+        if(t.dataset.tag==='all'){ tags.forEach(x=>x.classList.remove('active')); }
+        t.classList.toggle('active'); applyFilter();
+      });
+    });
+  })();
+</script>
+
+
+</body>
+</html>
